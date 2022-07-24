@@ -6,7 +6,7 @@ const error = document.querySelector('#error')
 button.addEventListener('click', () => {
     if (newInput.value == '') {
         error.innerHTML = 'Add an item!'
-    } else {
+    } else { 
     const newItem = document.createElement('li');
     const newParagraph = document.createElement('p');
     const deleteButton = document.createElement('img');
@@ -27,6 +27,7 @@ button.addEventListener('click', () => {
         listToBeFilled.removeChild(newItem)
     })
     newInput.value = '';
+    error.innerHTML = ''
     }
 })
 

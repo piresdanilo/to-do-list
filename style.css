@@ -22,24 +22,40 @@ html {
     height: auto;
 }
 
+body {
+  margin-top: 45px;
+  background-image: url(wallppr1.png#6687AF);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 .container {
     width: 350px;
     min-height: 300px;
     border: solid 1px;
-    border-radius: 3px;
-    margin: 0 auto;
+    border-radius: 2px;
+    margin: 15px auto;
+    padding-top: 10px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.158);
 }
 
 #userInput {
-    max-width: 350px;
-    /* text-align: center; */
+    max-width: 400px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+.centralize{
+  justify-content: center;
 }
 
 button {
     width: 30px;
-    height: 20px;
+    height: 22px;
+    background-color: #6687af6b;
+    border: 2px solid rgba(0, 0, 0, 0.274);
 }
 ul {
     padding: 0 20px;
@@ -50,7 +66,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 20px;
+    height: 25px;
     max-width: 300px;
 }
 
@@ -59,8 +75,9 @@ li {
     text-decoration: line-through;
 }
 
-.img {
+img {
     width: 13px;
-    height:20px;
+    height:25px;
     margin-left: 10px;
 }
+
